@@ -1,0 +1,21 @@
+server:
+  port: ${APPLICATION_PORT:8085}
+---
+spring:
+  application:
+    name: pinnaper
+
+management:
+  endpoints:
+    web:
+      base-path: /
+      path-mapping:
+        prometheus: /metrics
+      exposure:
+        include:
+          - health
+          - info
+          - metrics
+          - prometheus
+
+
