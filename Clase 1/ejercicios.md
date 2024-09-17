@@ -22,7 +22,7 @@ De los Alumnos, se debe mostrar:
   
 Se Require;
 
-1. Calcular promedio.
+1.Calcular promedio.
 
 2. Mostrar Datos del Curso.
 
@@ -31,6 +31,8 @@ Se Require;
 4. Listado de Alumnos ordenados alfabeticamente por apellido y nombre.
 
 5. Que la salida por consola sea en formato json, para esto se debera utilizar la librería org.json.
+
+6. Usar lombok, builder
 
 ### Enunciado 2:
 #### Número capicúa
